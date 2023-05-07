@@ -246,7 +246,7 @@
           <section id="footer" class="contact-section bg-black">
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="https://www.instagram.com/@mike_bptist"><i class="fa-brands fa-instagram"></i></a>
-                    <a class="mx-2" href="https://www.youtube.com/@michaelbaptistag4372/featured"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="mx-2" href="https://youtube.com/@michaelbaptist"><i class="fa-brands fa-youtube"></i></a>
                     {{-- <a class="mx-2" href="https://line.me/michaelbaptis"><i class="fa-brands fa-line"></i></a> --}}
                     <a class="mx-2" href="https://github.com/michaelbaptis"><i class="fab fa-github"></i></a>
 
