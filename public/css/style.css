@@ -29,6 +29,40 @@
     font-size: 0.5rem;
 }
 
+.mastheadporto {
+    position: relative;
+    width: auto;
+    height: 100vh;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background:#313535;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/Group 2.png"); */
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.mastheadporto h1,
+.mastheadporto .h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.8rem;
+    color: aliceblue;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); */
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.mastheadporto h2,
+.mastheadporto .h2 {
+    max-width: 70rem;
+    font-size: 1.2rem;
+}
+
 @media (min-width: 768px) {
     .masthead h1,
     .masthead .h1 {
@@ -388,7 +422,7 @@
     height: auto;
     background: #252727;
     color: azure;
-    padding-top: ;
+    /* padding-top: ; */
 }
 
 .footer {

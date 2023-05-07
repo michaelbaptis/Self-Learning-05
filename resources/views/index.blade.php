@@ -75,7 +75,7 @@
                 </div>
               </div>
               <div class="row">
-      
+
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                   <i class="bi bi-card-checklist"></i>
                   <h4 class="h4 mb-2">Read Book</h4>
@@ -94,7 +94,7 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                   <i class="bi bi-brightness-high"></i>
                   <h4 class="h4 mb-2">Enjoy Nature</h4>
-                  <p>Enjoying nature is a way for me to be grateful. With so many thoughts and the chaos of the world, 
+                  <p>Enjoying nature is a way for me to be grateful. With so many thoughts and the chaos of the world,
                      I can calm myself by enjoying nature.<br>
                      Nature is a gift from God given with a myriad of benefits that we may not yet know.</p>
                 </div>
@@ -190,7 +190,7 @@
                        </div>
                        <div class="swiper-pagination"></div>
                    </div>
-   
+
                </div>
             </section>
 
@@ -204,118 +204,45 @@
                 </div>
               </div>
               <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+                @foreach ($porto as $item)
+                @if (($item['id'] == '1'))
                 <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Chruch</h3>
-                      <span>Photography</span>
-                    </div>
-                    <img id="foto" class="img-fluid" src="assets/Group 2.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Presentation Video</h3>
-                      <span>Videography & Editing</span>
-                    </div>
-                    <img id="foto" class="img-fluid" src="assets/Group 3.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Drophin UI</h3>
-                      <span>UI Design</span>
-                    </div>
-                    <img id="foto" class="img-fluid" src="assets/Group 5.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>My Self</h3>
-                      <span>Photography</span>
-                    </div>
-                    <img class="img-fluid" src="assets/Group 4.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Pocari Sweat Ads</h3>
-                      <span>Videography & Editing</span>
-                    </div>
-                    <img class="img-fluid" src="assets/Group 8.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>BLI Easy Access UI</h3>
-                      <span>UI Design</span>
-                    </div>
-                    <img class="img-fluid" src="assets/Group 7.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Short Movie Project</h3>
-                      <span>Videography & Editing</span>
-                    </div>
-                    <img class="img-fluid" src="assets/Group 11.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Fugemy UI</h3>
-                      <span>UI Design</span>
-                    </div>
-                    <img class="img-fluid" src="assets/Group 6.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Cinematic Project</h3>
-                      <span>Videography</span>
-                    </div>
-                    <img class="img-fluid" src="assets/Group 14.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Self Studio</h3>
-                      <span>Photography</span>
-                    </div>
-                    <img class="img-fluid" src="assets/Group 15.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Street Photography</h3>
-                      <span>Photography</span>
-                    </div>
-                    <img class="img-fluid" src="assets/Group 13.png">
-                  </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
-                  <a href="#portfolio" class="item-wrap fancybox">
-                    <div class="work-info">
-                      <h3>Short Movie Series Project</h3>
-                      <span>Videography & Editing</span>
-                    </div>
-                    <img class="img-fluid" src="assets/Group 12.png">
-                  </a>
-                </div>
+                    <a href="/porto/{{$item['id']}}" class="item-wrap fancybox">
+                      <div class="work-info">
+                        <h3>{{$item['name']}}</h3>
+                        <span>Photography</span>
+                      </div>
+                      <img id="foto" class="img-fluid" src="{{$item['img']}}">
+                    </a>
+                  </div>
+                  @elseif (($item['id'] == '2'))
+                  <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
+                    <a href="/porto/{{$item['id']}}"class="item-wrap fancybox">
+                      <div class="work-info">
+                        <h3>{{$item['name']}}</h3>
+                        <span>Videography & Editing</span>
+                      </div>
+                      <img id="foto" class="img-fluid" src="{{$item['img']}}">
+                    </a>
+                  </div>
+                  @elseif (($item['id'] == '3'))
+                  <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
+                    <a href="/porto/{{$item['id']}}" class="item-wrap fancybox">
+                      <div class="work-info">
+                        <h3>{{$item['name']}}</h3>
+                        <span>UI Design</span>
+                      </div>
+                      <img id="foto" class="img-fluid" src="{{$item['img']}}">
+                    </a>
+                  </div>
+                @endif
+
+                @endforeach
+
               </div>
             </div>
           </section>
-      
+
           <section id="footer" class="contact-section bg-black">
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="https://www.instagram.com/@mike_bptist"><i class="fa-brands fa-instagram"></i></a>
@@ -328,7 +255,7 @@
           </section>
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Michael Baptista Gozal 2023</div></footer>
-       
+
    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
    <script>
          $('.navbar a').on('click', function() {
@@ -343,7 +270,7 @@
                $("#header").addClass("bg-dark bg-opacity-50");
             }
             else{
-               $("#header").removeClass("bg-dark bg-opacity-50");  	
+               $("#header").removeClass("bg-dark bg-opacity-50");
             }
          })
          })
