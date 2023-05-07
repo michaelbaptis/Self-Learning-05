@@ -1,10 +1,11 @@
-# Self Learning Web Programming 
+# Self Learning Web Programming - Sesi 05
 Nama		: Michael Baptista Gozal<br>
 Kelas		: PPTI 12<br>
 NIM         : 2502041262<br>
 <br>
 Berikut adalah tugas webprogramming saya menggunakan framework **laravel**, css framework yaitu **bootsrap**, dan juga **javascript**.<br>
-Tugas webprog yang saya buat adalah untuk membuat web profile. 
+Tugas webprog yang saya buat adalah untuk membuat web profile.<br>
+Pada website ini digunakan juga controller untuk bagian portfoilio.
 
 ![Website](https://github.com/michaelbaptis/Self_Learning_01-Profile/blob/main/documentation/website.png)
 
